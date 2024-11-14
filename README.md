@@ -11,6 +11,9 @@ Step 1: Set Up the Environment
 #### Linux Users
 
 To create a conda environment with all necessary dependencies, use the following commands:
+```markdown
+conda env create -f environment.yml
+```
 
 
 #### Mac Users
