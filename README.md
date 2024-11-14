@@ -15,7 +15,7 @@ To create a conda environment with all necessary dependencies, use the following
 
 #### Mac Users
 
-Use the command below to set up an environment compatible with Mac:
+To create a conda environment with all necessary dependencies, use the following commands:
 
 ## Downloading Datasets
 
