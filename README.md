@@ -147,3 +147,13 @@ python load_landfire.py
 ```
 
 ## Using Database: Example Queries
+
+### Query a point
+This query will check for TIFF files containing the specified point and returns their locations.
+
+```bash
+python query_point.py
+```
+
+### Query for a Sentinel Tile and return intersecting tif file
+
