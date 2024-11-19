@@ -80,6 +80,22 @@ Follow the steps below to manually download the dataset:
 
 ### Download LANDFIRE 2022 Canopy Height Dataset US
 
+To download the AGB Dataset China, use the provided script download_landfire_ch.py within the bmdata Conda environment.
+
+**1. Run the script:**
+```markdown
+python download_landfire_ch.py
+```
+
+**2. Enter the target directory when prompted:**
+```markdown
+Enter the target directory for downloading the dataset: /path/to/your/directory
+```
+
+**3. Unzip the folders**
+
 ## Database Setup
+
+How to add new datasets
 
 ## Using Database: Example Queries
