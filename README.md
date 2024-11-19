@@ -29,6 +29,8 @@ cd bt-biomass-datasets
 
 ### Download Open-Canopy Dataset France
 To download the Open-Canopy Dataset France, use the provided script download_open_canopy.py within the bmdata Conda environment.
+(adapt script to not download spot data)
+Note: you need about 380GB available to download this dataset.
 
 **1. Run the script:**
 ```markdown
@@ -44,6 +46,7 @@ Enter the target directory for downloading the dataset: /path/to/your/directory
 ### Download AGB Dataset China
 
 To download the AGB Dataset China, use the provided script download_AGB_China.py within the bmdata Conda environment.
+Note: You need about 108GB available to download this dataset
 
 **1. Run the script:**
 ```markdown
@@ -96,6 +99,33 @@ Enter the target directory for downloading the dataset: /path/to/your/directory
 
 ## Database Setup
 
-How to add new datasets
+**1. Activate the `bmdata` Conda environment:**
+```bash
+conda activate bmdata
+```
+**2. Start the PostgreSQL service:**
+```bash
+pg_ctl start
+```
+**3. Run the provided script setup_database.py to setup the database and schema:**
+```bash
+python setup_database.py
+```
+ASK FOR USERNAME ETC!!!
+
+## Load Datasets into Database
+
+### General script to load data into database
+```bash
+python load_data_general.py
+``
+
+### Load Open-Canopy Dataset France
+
+### Load AGB Dataset China
+
+### Load LiDAR AGB Dataset South Asia and Central Africa
+
+### Load LANDFIRE 2022 Canopy Height Dataset US (still in wrong database --> CH)
 
 ## Using Database: Example Queries
