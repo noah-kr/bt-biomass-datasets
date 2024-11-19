@@ -6,7 +6,14 @@ Authors: Noah Kreyenkamp
 
 ## Installation
 
-**Step 1: Set Up the Environment**
+**Step 1: Clone the repository**
+
+```markdown
+git clone https://github.com/noah-kr/bt-biomass-datasets.git
+cd bt-biomass-datasets
+```
+
+**Step 2: Set Up the Environment**
 
 To create a conda environment with all necessary dependencies, use the following commands:
 ```markdown
@@ -15,13 +22,6 @@ conda env create -f environment.yml
 Activate the environment: 
 ```markdown
 conda activate bmdata
-```
-
-**Step 2: Clone the repository**
-
-```markdown
-git clone https://github.com/noah-kr/bt-biomass-datasets.git
-cd bt-biomass-datasets
 ```
 
 ## Downloading Datasets
@@ -116,16 +116,34 @@ ASK FOR USERNAME ETC!!!
 ## Load Datasets into Database
 
 ### General script to load data into database
+
+If you have a folder of GeoTIFF files that you want to add to the database, you can execute the following script. The script will ask you for the necessary parameters like location of the folder etc.
+
 ```bash
 python load_data_general.py
 ```
 
-### Load Open-Canopy Dataset France
 
-### Load AGB Dataset China (Script doesnt exist yet)
+### Load Open-Canopy Dataset France
+```bash
+python load_open_canopy.py
+```
+
+### Load AGB Dataset China
+```bash
+python load_AGB_china.py
+```
 
 ### Load LiDAR AGB Dataset South Asia and Central Africa
 
-### Load LANDFIRE 2022 Canopy Height Dataset US (still in wrong database --> CH)
+```bash
+python load_AGB_south_asia_central_africa.py
+```
+
+### Load LANDFIRE 2022 Canopy Height Dataset US
+
+```bash
+python load_landfire.py
+```
 
 ## Using Database: Example Queries
