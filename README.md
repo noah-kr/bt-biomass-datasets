@@ -135,7 +135,7 @@ python load_AGB_china.py
 ```
 
 ### Load LiDAR AGB Dataset South Asia and Central Africa
-
+1. step: put both folders "LiDAR-based_biomass_maps_Central_Africa" and "LiDAR-based_biomass_maps_South_Asia" into one folder, use this folder as root folder 
 ```bash
 python load_AGB_south_asia_central_africa.py
 ```
@@ -146,9 +146,14 @@ python load_AGB_south_asia_central_africa.py
 python load_landfire.py
 ```
 
-## Using Database: Example Queries
+## Using Database
 
-### Query a point
+how to start the server
+...
+
+### Example Queries:
+
+#### Query a point
 This query will check for TIFF files containing the specified point and returns their locations.
 
 ```bash
@@ -156,4 +161,11 @@ python query_point.py
 ```
 
 ### Query for a Sentinel Tile and return intersecting tif file
+
+### Query for a .tif file and return intersecting tif file
+
+### Query for a .h5 file and return intersecting tif file
+
+### Query for a random geometry (in WKT format) and return intersecting tif file
+
 
