@@ -160,6 +160,7 @@ This query will check for TIFF files containing the specified point and returns 
 python query_point.py
 ```
 
+Note for the following the output TIFF file will always be in EPSG:4326, even if the input is in a different CRS format
 ### Query for a Sentinel Tile and return intersecting tif file
 
 ### Query for a .tif file and return intersecting tif file
