@@ -146,6 +146,13 @@ python load_AGB_south_asia_central_africa.py
 python load_landfire.py
 ```
 
+
+## Reprojecting data to EPSG:4326 and compressing files
+```bash
+reproject_compress.py
+```
+
+
 ## Using Database
 
 how to start the server
@@ -162,11 +169,19 @@ python query_point.py
 
 Note for the following the output TIFF file will always be in EPSG:4326, even if the input is in a different CRS format
 ### Query for a Sentinel Tile and return intersecting tif file
-
+```bash
+python query_point.py
+```
 ### Query for a .tif file and return intersecting tif file
-
+```bash
+python query_point.py
+```
 ### Query for a .h5 file and return intersecting tif file
-
+```bash
+python query_point.py
+```
 ### Query for a random geometry (in WKT format) and return intersecting tif file
-
+```bash
+python query_point.py
+```
 
