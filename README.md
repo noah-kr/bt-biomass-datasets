@@ -97,6 +97,10 @@ Enter the target directory for downloading the dataset: /path/to/your/directory
 
 **3. Unzip the folders**
 
+## Reproject to EPSG:4326 and Compress the data
+
+AGB China does not have to be reprojected or compressed (dont input the AGB_China folder)
+
 ## Database Setup
 
 **1. Activate the `bmdata` Conda environment:**
