@@ -101,6 +101,8 @@ Enter the target directory for downloading the dataset: /path/to/your/directory
 
 AGB China does not have to be reprojected or compressed (dont input the AGB_China folder)
 
+The folder lidar_classification and spot will not be relevant to our database, so to avoid unnecessary computations you should either delete these folders or move them to a different directory before using the script.
+
 ## Database Setup
 
 **1. Activate the `bmdata` Conda environment:**
@@ -115,7 +117,6 @@ pg_ctl start
 ```bash
 python setup_database.py
 ```
-ASK FOR USERNAME ETC!!!
 
 ## Load Datasets into Database
 
@@ -129,6 +130,7 @@ python load_data_general.py
 
 
 ### Load Open-Canopy Dataset France
+The folder lidar_classification and spot will not be relevant to our database, so before using the script below you should either delete these folders or move them to a different directory
 ```bash
 python load_open_canopy.py
 ```
@@ -172,20 +174,12 @@ python query_point.py
 ```
 
 Note for the following the output TIFF file will always be in EPSG:4326, even if the input is in a different CRS format
-### Query for a Sentinel Tile and return intersecting tif file
-```bash
-python query_point.py
-```
-### Query for a .tif file and return intersecting tif file
-```bash
-python query_point.py
-```
-### Query for a .h5 file and return intersecting tif file
-```bash
-python query_point.py
-```
+
 ### Query for a random geometry (in WKT format) and return intersecting tif file
 ```bash
-python query_point.py
+python query_geometry.py
 ```
-
+### Convert a Sentinel 2 Tile to a geometry
+```bash
+python convert_sentinel_tile.py
+```
