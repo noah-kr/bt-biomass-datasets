@@ -40,7 +40,7 @@ conda env create -f environment.yml
 ```
 Activate the environment: 
 ```bash
-conda activate bmdata
+conda activate bmproject
 ```
 
 ## Downloading Datasets
