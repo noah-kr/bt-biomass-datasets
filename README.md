@@ -34,6 +34,14 @@ cd bt-biomass-datasets
 
 **Step 2: Set Up the Environment**
 
+Add these channels to your global Conda configuration
+```bash
+conda config --add channels huggingface
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+conda config --add channels anaconda
+conda config --add channels conda-forge
+``
+
 To create a conda environment with all the necessary dependencies, use the provided environment.yml file:
 ```bash
 conda env create -f environment.yml
