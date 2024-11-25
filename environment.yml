@@ -102,7 +102,7 @@ dependencies:
   - libbrotlienc=1.1.0=hb9d3cd8_2
   - libcblas=3.9.0=25_linux64_openblas
   - libcrc32c=1.1.2=h9c3ff4c_0
-  - libcurl=8.11.0=hbbe4b11_0
+  - libcurl
   - libdeflate=1.22=hb9d3cd8_0
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=hd590300_2
