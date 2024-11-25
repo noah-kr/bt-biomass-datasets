@@ -24,8 +24,11 @@ The repository contains scripts to:
 
 **Step 1: Clone the repository**
 
-```markdown
+```bash
 git clone https://github.com/noah-kr/bt-biomass-datasets.git
+```
+
+```bash
 cd bt-biomass-datasets
 ```
 
