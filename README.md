@@ -179,14 +179,14 @@ This query will check for TIFF files containing the specified point and returns 
 python query_point.py
 ```
 
-#### Query a Geometry
+#### 2. Query a Geometry
 Find TIFF files intersecting a user-defined geometry in WKT format:
 ```bash
 python query_geometry.py
 ```
 - Note: The output TIFF file will always be in EPSG:4326, even if the input is in a different CRS format
 
-#### Sentinel-2 Tile Conversion
+#### 3. Sentinel-2 Tile Conversion
 Convert Sentinel-2 tile names to WKT geometries:
 ```bash
 python convert_sentinel_tile.py
