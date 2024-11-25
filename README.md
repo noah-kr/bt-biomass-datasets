@@ -43,7 +43,7 @@ conda activate bmdata
 ## Downloading Datasets
 The repository supports multiple datasets. Follow the instructions below to download each dataset. Each script will ask you for the target directory to store the datasets.
 
-### 1. Open-Canopy Dataset (France)
+#### 1. Open-Canopy Dataset (France)
 To download the Open-Canopy Dataset France, use the provided script download_open_canopy.py within the bmdata Conda environment.
 (adapt script to not download spot data)
 - Note: you need about 380GB available to download this dataset.
@@ -54,7 +54,7 @@ python download_open_canopy.py
 ```
 
 
-### AGB Dataset (China)
+#### 2. AGB Dataset (China)
 
 To download the AGB Dataset China, use the provided script download_AGB_China.py.
 
@@ -65,7 +65,7 @@ To download the AGB Dataset China, use the provided script download_AGB_China.py
 python download_AGB_China.py
 ```
 
-### LiDAR AGB Dataset (South Asia and Central Africa)
+#### 3. LiDAR AGB Dataset (South Asia and Central Africa)
 
 Follow the steps below to manually download the dataset:
 
@@ -88,7 +88,7 @@ Follow the steps below to manually download the dataset:
    The file will begin downloading. Save it to a location of your choice.
 
 
-### LANDFIRE 2022 Canopy Height Dataset (US)
+#### 4. LANDFIRE 2022 Canopy Height Dataset (US)
 
 To download the AGB Dataset China, use the provided script download_landfire_ch.py within the bmdata Conda environment.
 
@@ -158,10 +158,10 @@ python load_AGB_china.py
 ```
 
 - **LiDAR AGB Dataset (South Asia and Central Africa)**
-- 1. Put both folders "LiDAR-based_biomass_maps_Central_Africa" and "LiDAR-based_biomass_maps_South_Asia" into the same folder and input this folder as the root directory when prompted
-  2. ```bash
-      python load_AGB_south_asia_central_africa.py
-     ```
+Put both folders "LiDAR-based_biomass_maps_Central_Africa" and "LiDAR-based_biomass_maps_South_Asia" into the same folder and input this folder as the root directory when prompted
+```bash
+python load_AGB_south_asia_central_africa.py
+```
 
 - **LANDFIRE 2022 Canopy Height Dataset (US)**
 
