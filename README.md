@@ -47,7 +47,7 @@ conda activate bmproject
 The repository supports multiple datasets. Follow the instructions below to download each dataset. Each script will ask you for the target directory to store the datasets.
 
 ### 1. Open-Canopy Dataset (France)
-To download the Open-Canopy Dataset France, use the provided script download_open_canopy.py within the bmdata Conda environment.
+To download the Open-Canopy Dataset France, use the provided script download_open_canopy.py within the conda environment.
 (adapt script to not download spot data)
 - Note: you need about 380GB available to download this dataset.
 
@@ -93,7 +93,7 @@ Follow the steps below to manually download the dataset:
 
 ### 4. LANDFIRE 2022 Canopy Height Dataset (US)
 
-To download the AGB Dataset China, use the provided script download_landfire_ch.py within the bmdata Conda environment.
+To download the AGB Dataset China, use the provided script download_landfire_ch.py within the conda environment.
 
 **Run the script:**
 ```markdown
