@@ -118,9 +118,16 @@ python reproject_data.py
 ## Database Setup
 
 **1. Start the PostgreSQL server:**
+
+Replace "/path/to/data/directory" with the directory where the pgsql_data folder is stored
 ```bash
-pg_ctl start
+pg_ctl -D /path/to/data/directory start
 ```
+In my specific case:
+```bash
+ pg_ctl -D /scratch/nkreyenkamp/pgsql_data start
+```
+
 
 **2. Run the provided script setup_database.py to setup the database and schema:**
 ```bash
@@ -129,7 +136,7 @@ python setup_database.py
 
 **You can stop the PostgreSQL server with this command:**
 ```bash
-pg_ctl stop
+pg_ctl -D /path/to/data/directory stop
 ```
 
 
