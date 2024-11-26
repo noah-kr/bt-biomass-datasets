@@ -46,6 +46,8 @@ conda activate bmproject
 ## Downloading Datasets
 The repository supports multiple datasets. Follow the instructions below to download each dataset. Each script will ask you for the target directory to store the datasets.
 
+Note: If the downloading process gets interrupted, you can just re-run the script and it will continue where it left off.
+
 ### 1. Open-Canopy Dataset (France)
 To download the Open-Canopy Dataset France, use the provided script download_open_canopy.py within the conda environment.
 (adapt script to not download spot data)
