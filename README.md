@@ -138,7 +138,7 @@ pg_ctl stop
 
 ### 1. General script to load data into database
 
-If you have a folder of GeoTIFF files that you want to add to the database, you can execute the following script. The script will ask you for the necessary parameters like location of the folder etc.
+If you have a folder of GeoTIFF files that you want to add to the database, you can execute the following script. The script will ask you for the necessary parameters like location of the data etc.
 
 ```bash
 python load_data_general.py
