@@ -1,0 +1,21 @@
+name: bmproject
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gdal 
+  - psycopg2 
+  - shapely 
+  - geopandas 
+  - pyproj 
+  - postgis 
+  - rasterio 
+  - tqdm 
+  - requests 
+  - huggingface_hub 
+  - numpy 
+  - matplotlib 
+  - pandas 
+  - pip 
+  - pip:
+      - folium 
