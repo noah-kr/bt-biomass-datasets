@@ -61,7 +61,7 @@ python download_open_canopy.py
 
 ### 2. AGB Dataset (China)
 
-To download the AGB Dataset China, use the provided script download_AGB_China.py.
+To download the AGB Dataset China, use the provided script download_AGB_China.py. The script will only download data form 2015 onwards. Older data will be ignored.
 
 - Note: You need about 108GB available to download this dataset
 
