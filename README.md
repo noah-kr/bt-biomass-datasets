@@ -89,18 +89,21 @@ Follow the steps below to manually download the dataset:
    - Read and review the terms.
    - Click the **"Accept"** button to confirm and start the download.
 
-5. **Save the Dataset**  
-   The file will begin downloading. Save it to a location of your choice.
-
 
 ### 4. LANDFIRE 2022 Canopy Height Dataset (US)
 
-To download the AGB Dataset China, use the provided script download_landfire_ch.py within the conda environment.
+Follow the steps below to manually download the dataset:
 
-**Run the script:**
-```markdown
-python download_landfire_ch.py
-```
+1. **Visit the Dataset Page**  
+   The Landfire dataset consists of four different regions. You will have to download the data for each region manually. Here are the links for each dataset, please follow the instruction below to download the data.
+
+   [LANDFIRE Canopy Height Conus](https://www.sciencebase.gov/catalog/item/64f2465fd34e095955171e11)
+   [LANDFIRE Canopy Height Alaska](https://www.sciencebase.gov/catalog/item/64f24e34d34e095955171e94)
+   [LANDFIRE Canopy Height Hawaii](https://www.sciencebase.gov/catalog/item/65665fead34e3aa43a43faae)
+   [LANDFIRE Canopy Height Puerto Rico](https://www.sciencebase.gov/catalog/item/655542f8d34ee4b6e05c463b)
+
+2. **Download the data**  
+   After opening the link, scroll to the section "Attached Files" and click on the zip file (e.g. LF2022_CH_230_CONUS_20231026.zip). Then complete the captcha and click on "Download File". Repeat this for every link above.
 
 
 ## Reproject to EPSG:4326 and compress the data
