@@ -7,10 +7,10 @@ This repository provides the scripts and instructions to set up, download, proce
 
 This repository provides a streamlined solution to work with geospatial data related to biomass and canopy height. The database integrates datasets from:
 
-- **Open-Canopy Dataset (France)**
-- **AGB Dataset (China)**
-- **LiDAR-based AGB Dataset (South Asia and Central Africa)**
-- **LANDFIRE 2022 Canopy Height Dataset (US)**
+- **[Open-Canopy Dataset (France)](https://github.com/fajwel/Open-Canopy/tree/main)**
+- **[AGB Dataset (China)](https://www.scidb.cn/en/detail?dataSetId=f48c4983dbd84a4c9c287111ac91c5aa)**
+- **[LiDAR-based AGB Dataset (South Asia and Central Africa)](https://dataverse.ird.fr/dataset.xhtml?persistentId=doi:10.23708/H2MHXF)**
+- **LANDFIRE 2022 Canopy Height Dataset ([Conus](https://www.sciencebase.gov/catalog/item/64f2465fd34e095955171e11), [Alaska](https://www.sciencebase.gov/catalog/item/64f24e34d34e095955171e94), [Hawaii](https://www.sciencebase.gov/catalog/item/65665fead34e3aa43a43faae), [Puerto Rico](https://www.sciencebase.gov/catalog/item/655542f8d34ee4b6e05c463b))**
 
 The repository contains scripts to:
 
@@ -207,7 +207,16 @@ Convert Sentinel-2 tile names to WKT geometries:
 python convert_sentinel_tile.py
 ```
 
-## Data Storage on pf-pc18
+## Usage on pf-pc18
+- All relevant data is stored on pf-pc18 in the folder ```/scratch/nkreyenkamp```.
+- Script and data can be found in ```/scratch/nkreyenkamp/biomass_project```.
+- Name of the Anaconda environment is ```bmproject```
+- Start the database server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data start```
+- Stop the database server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data stop```
+- Open database: ```psql -d bmdata```
 
 
-## Acknowledgments
+
+
+
+
