@@ -209,6 +209,7 @@ python convert_sentinel_tile.py
 - Start the PostgreSQL server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data start```.
 - Stop the PostgreSQL server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data stop```.
 - Open database: ```psql -d bmdata```.
+- psql username (to use in the scripts): ```nkreyenkamp```
 
 
 
