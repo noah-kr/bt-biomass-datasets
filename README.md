@@ -204,7 +204,7 @@ python convert_sentinel_tile.py
 
 ## Usage on pf-pc18
 - All relevant data is stored on pf-pc18 in the folder ```/scratch/nkreyenkamp```.
-- Script and data can be found in ```/scratch/nkreyenkamp/biomass_project```.
+- Scripts and data can be found in ```/scratch/nkreyenkamp/biomass_project```.
 - Name of the Anaconda environment is ```bmproject```.
 - Start the PostgreSQL server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data start```.
 - Stop the PostgreSQL server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data stop```.
