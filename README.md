@@ -128,11 +128,6 @@ Replace "/path/to/data/directory" with the directory where the pgsql_data folder
 ```bash
 pg_ctl -D /path/to/data/directory start
 ```
-In my specific case:
-```bash
- pg_ctl -D /scratch/nkreyenkamp/pgsql_data start
-```
-
 
 **2. Run the provided script setup_database.py to setup the database and schema:**
 ```bash
@@ -210,10 +205,10 @@ python convert_sentinel_tile.py
 ## Usage on pf-pc18
 - All relevant data is stored on pf-pc18 in the folder ```/scratch/nkreyenkamp```.
 - Script and data can be found in ```/scratch/nkreyenkamp/biomass_project```.
-- Name of the Anaconda environment is ```bmproject```
-- Start the database server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data start```
-- Stop the database server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data stop```
-- Open database: ```psql -d bmdata```
+- Name of the Anaconda environment is ```bmproject```.
+- Start the PostgreSQL server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data start```.
+- Stop the PostgreSQL server: ```pg_ctl -D /scratch/nkreyenkamp/pgsql_data stop```.
+- Open database: ```psql -d bmdata```.
 
 
 
