@@ -32,7 +32,7 @@ git clone https://github.com/noah-kr/bt-biomass-datasets.git
 cd bt-biomass-datasets
 ```
 
-**Step 2: Set Up the Environment (only for Linux users)**
+**Step 2: Set Up the Environment**
 
 To create a conda environment with all the necessary dependencies, use the provided environment.yml file:
 ```bash
